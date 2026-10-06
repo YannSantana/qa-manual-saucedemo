@@ -1,34 +1,32 @@
-# BUG-XXX — Título curto e específico
+# BUG-XXX — Descreva o problema em uma frase
 
-**Status:** aberto / em análise / resolvido  
-**Severidade:** baixa / média / alta / crítica  
-**Caso relacionado:** CT-XXX  
-**Data:** preencher  
-**Ambiente:** navegador, versão, sistema operacional e URL  
-**Conta de demonstração:** preencher
+Use este arquivo só depois de reproduzir a falha. Faça uma cópia com o nome `BUG-001.md`, `BUG-002.md` e assim por diante.
 
-## Pré-condições
+- **Caso relacionado:** CT-XXX
+- **Data:** preencher
+- **Ambiente:** navegador, versão e sistema operacional
+- **Conta de demonstração:** preencher
+- **Frequência:** por exemplo, 2 de 2 tentativas
+- **Impacto:** explique o que a pessoa deixa de conseguir fazer
 
-Descreva o estado necessário, por exemplo: usuário conectado e carrinho vazio.
+## Antes de começar
 
-## Passos para reproduzir
+Qual era o estado do site? Por exemplo: conta conectada e carrinho vazio.
 
-1. Primeiro passo.
-2. Segundo passo.
-3. Ação que provoca o problema.
+## Como reproduzir
 
-## Resultado esperado
+1. Descreva a primeira ação.
+2. Continue com os passos necessários.
+3. Termine na ação que mostra o problema.
 
-Descreva o comportamento esperado com base no fluxo da aplicação.
+## O que eu esperava
 
-## Resultado obtido
+Descreva o comportamento esperado.
 
-Descreva exatamente o que aconteceu, incluindo texto da mensagem se relevante.
+## O que aconteceu
 
-## Frequência
-
-Informe quantas vezes ocorreu em quantas tentativas, por exemplo: 2/2.
+Descreva o comportamento observado. Se houver mensagem de erro, copie o texto exato.
 
 ## Evidência
 
-Adicione um link relativo, como `../evidencias/BUG-001.png`, após capturar a tela. Remova dados pessoais da imagem.
+Adicione um link para a captura ou o vídeo salvo em `../evidencias/`. Evite incluir dados pessoais.

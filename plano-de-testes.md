@@ -1,34 +1,31 @@
 # Plano de testes
 
-## Objetivo
+## Por que escolhi esse fluxo
 
-Verificar se um usuário de demonstração consegue entrar, selecionar produtos, revisar o carrinho e concluir um pedido no SauceDemo.
+Quero verificar se uma pessoa consegue fazer uma compra de demonstração sem se perder ou encontrar um bloqueio: entrar, escolher produtos, revisar o carrinho e chegar à confirmação do pedido. Também incluí situações em que falta informação ou a senha está errada, porque mensagens claras fazem parte de uma boa experiência.
 
-## Ambiente e dados
+## Onde vou testar
 
-- Aplicação: https://www.saucedemo.com/
-- Plataforma: navegador desktop; registrar nome e versão no relatório
-- Conta: usuário de demonstração informado pela aplicação; registrar qual foi utilizado
-- Estado inicial: nova janela privada para evitar carrinho ou sessão anterior
-- Dados de checkout: dados fictícios, como `Ana`, `Teste`, `12345`
+- Site: https://www.saucedemo.com/
+- Ambiente: navegador desktop; vou anotar nome, versão e sistema operacional no relatório.
+- Conta: uma das contas de demonstração exibidas na página. Vou registrar qual usei em cada rodada.
+- Início de cada rodada: janela privada, para evitar que uma sessão ou carrinho antigo altere o resultado.
+- Checkout: dados fictícios (`Ana`, `Teste`, `12345`).
 
-## Estratégia
+## O que entra neste ciclo
 
-Executar testes funcionais manuais dos fluxos principais e de validações negativas. Observar mensagens exibidas, mudança de página, conteúdo do carrinho e confirmação final. Registrar cada resultado e uma evidência para falhas. Os valores monetários devem ser conferidos conforme os números exibidos na execução, sem pressupor preços fixos.
+Login, logout, catálogo, ordenação, detalhes de produto, carrinho, checkout e confirmação. Os casos estão em [casos-de-teste.md](casos-de-teste.md).
 
-## Prioridades
+Ficam de fora cadastro, busca, pagamento real, API, desempenho e acessibilidade. São assuntos importantes, mas este primeiro ciclo está focado no fluxo funcional de compra.
 
-- **Alta:** login, inclusão/remoção no carrinho, checkout e pedido concluído.
-- **Média:** ordenação, navegação e mensagens de validação.
+## Como vou avaliar
 
-## Critérios de entrada
+Vou seguir os passos de cada caso, comparar o que aparece na tela com o resultado esperado e registrar **Passou**, **Falhou** ou **Bloqueado**. Se algo parecer errado, vou repetir o cenário antes de abrir um bug. Para conferir valores, usarei os preços e taxas mostrados pelo site no momento da execução, sem depender de preços fixos.
 
-Aplicação acessível, navegador disponível e conta de demonstração funcional.
+Os fluxos de login, carrinho e finalização têm prioridade alta porque impedem a compra quando falham. Ordenação, navegação e mensagens de validação têm prioridade média neste ciclo.
 
-## Critérios de saída
+## Quando a rodada estará concluída
 
-Todos os casos com status registrado; falhas documentadas com passos reproduzíveis; resumo com quantidade de casos que passaram, falharam ou ficaram bloqueados. Se o ambiente estiver indisponível, registrar o bloqueio em vez de marcar falha do produto.
+Todos os 16 casos terão um status no relatório. Cada falha confirmada terá passos para reprodução e evidência. Se o site estiver indisponível ou algum teste não puder começar, vou marcar **Bloqueado** e explicar o motivo.
 
-## Riscos e limites
-
-O site é uma demonstração pública e pode mudar. Mensagens e comportamento esperados neste projeto são hipóteses de teste; divergências precisam ser avaliadas antes de abrir um bug. O projeto não valida transações financeiras reais.
+O SauceDemo é uma aplicação pública de demonstração e pode mudar. Por isso, os resultados esperados são hipóteses de teste: uma diferença observada não vira bug automaticamente. Primeiro preciso entender o comportamento e confirmar que o problema é reproduzível.

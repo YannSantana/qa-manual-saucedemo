@@ -6,7 +6,7 @@
 **Usuário de demonstração:** preencher  
 **URL:** https://www.saucedemo.com/
 
-Use **Passou**, **Falhou** ou **Bloqueado**. Registre uma observação objetiva e, quando necessário, um link para evidência ou bug. Não marque um caso como executado sem realizar os passos.
+Ainda não executei os casos. Durante a rodada, vou trocar **Não executado** por **Passou**, **Falhou** ou **Bloqueado** e anotar o que observei. Se um caso falhar, vou incluir o link para o bug e sua evidência. Se ficar bloqueado, vou explicar o que impediu o teste.
 
 | Caso | Status | Observação / evidência / bug |
 | --- | --- | --- |
@@ -37,4 +37,4 @@ Use **Passou**, **Falhou** ou **Bloqueado**. Registre uma observação objetiva 
 | Falharam | 0 |
 | Bloqueados | 0 |
 
-**Conclusão:** preencher após a execução, incluindo riscos remanescentes e links para bugs confirmados.
+**Minha conclusão após a rodada:** preencher com o que funcionou, o que precisa de atenção e links para bugs confirmados. Não tirar conclusões antes da execução.

@@ -1,6 +1,8 @@
 # Casos de teste
 
-**Preparação comum:** comece em uma janela privada. Para os casos após o login, entre com uma conta de demonstração válida. Antes de cada teste de carrinho, volte ao estado inicial ou remova os itens anteriores. Registre no relatório qualquer diferença entre o estado esperado e o observado.
+Preparei estes cenários para acompanhar uma compra de ponta a ponta e conferir algumas situações de erro. Cada caso tem uma ação concreta e algo que espero ver na tela. Ainda preciso executá-los para saber o resultado real.
+
+**Antes de começar:** abra uma janela privada. Nos casos após o login, use uma conta de demonstração válida. Antes de testar o carrinho, remova os itens deixados por outro cenário. Anote no relatório qualquer diferença entre o esperado e o observado.
 
 ## Login e sessão
 
