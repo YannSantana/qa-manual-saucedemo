@@ -32,9 +32,9 @@ Não fazem parte deste ciclo: cadastro, busca, pagamento real, API e testes de c
 | `bugs/MODELO-BUG.md` | Estrutura para relatar defeitos reproduzidos |
 | `evidencias/` | Capturas ou vídeos dos testes |
 
-## Publicação no GitHub
+## Repositório e próximos passos
 
-Crie um repositório público chamado `qa-manual-saucedemo` na sua conta do GitHub. Envie o conteúdo desta pasta para a raiz do repositório. Antes de divulgar o portfólio, execute os testes, preencha o relatório e substitua o estado acima pelos resultados reais. Não publique dados pessoais nem credenciais próprias nas evidências.
+Este projeto está publicado em [YannSantana/qa-manual-saucedemo](https://github.com/YannSantana/qa-manual-saucedemo). Para completar a parte prática do portfólio, execute os testes, preencha o relatório e substitua o estado acima pelos resultados reais. Não publique dados pessoais nem credenciais próprias nas evidências.
 
 ## Referência
 
