@@ -1,6 +1,6 @@
 # Casos de teste
 
-Preparei estes cenários para acompanhar uma compra de ponta a ponta e conferir algumas situações de erro. Cada caso tem uma ação concreta e algo que espero ver na tela. Ainda preciso executá-los para saber o resultado real.
+Preparei estes cenários para acompanhar uma compra de ponta a ponta e conferir algumas situações de erro. Cada caso tem uma ação concreta e algo que espero ver na tela. Os resultados observados na primeira rodada estão no [relatório de execução](relatorio-de-execucao.md).
 
 **Antes de começar:** abra uma janela privada. Nos casos após o login, use uma conta de demonstração válida. Antes de testar o carrinho, remova os itens deixados por outro cenário. Anote no relatório qualquer diferença entre o esperado e o observado.
 

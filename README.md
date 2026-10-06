@@ -4,7 +4,7 @@ Este é meu primeiro projeto de QA. Escolhi o [SauceDemo](https://www.saucedemo.
 
 Organizei aqui o que pretendo testar, os passos de cada cenário e um espaço para registrar o que realmente acontecer durante a execução. Quero que qualquer pessoa consiga entender meu raciocínio e repetir os testes.
 
-> **Onde o projeto está agora:** preparei 16 casos de teste, mas ainda não executei os cenários. O [relatório](relatorio-de-execucao.md) está em branco de propósito. Só vou marcar um resultado ou abrir um bug depois de observar o comportamento no site.
+> **Resultado da primeira rodada (06/10/2026):** executei os 16 casos com `standard_user` no navegador integrado do Codex. Todos passaram. O que observei em cada cenário está no [relatório](relatorio-de-execucao.md). Não encontrei um defeito reproduzível nesta rodada.
 
 ## O que estou cobrindo
 
@@ -33,9 +33,9 @@ Não incluí cadastro, busca, pagamento real, API ou testes de carga neste prime
 | [Modelo de bug](bugs/MODELO-BUG.md) | Ajuda a descrever uma falha de forma que outra pessoa consiga reproduzi-la. |
 | [Evidências](evidencias/README.md) | Guarda capturas de tela e vídeos relacionados aos testes. |
 
-## Próximo passo
+## Próximos passos
 
-Executar os 16 casos, preencher o relatório e acrescentar apenas os bugs que forem confirmados. O repositório está em [YannSantana/qa-manual-saucedemo](https://github.com/YannSantana/qa-manual-saucedemo).
+Repetir a rodada em outro navegador e explorar mais situações de erro. Se aparecer um problema reproduzível, vou registrar os passos e a evidência antes de abrir um bug. O repositório está em [YannSantana/qa-manual-saucedemo](https://github.com/YannSantana/qa-manual-saucedemo).
 
 ## Referência
 
